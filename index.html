@@ -1,0 +1,526 @@
+<!doctype html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Pine Lake Montessori School — Toddler, Casa &amp; Elementary in North York</title>
+<meta name="description" content="Pine Lake Montessori School is a licensed Montessori school in North York, Toronto, with toddler, Casa (Children's House), Lower Elementary and summer camp programs. 255 Sheppard Ave W.">
+<link rel="icon" href="logo-tree.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Outfit:wght@400;500;600;700&family=Geist+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#132a3c;--mut:#57606a;--bg:#f7f4ec;--bg2:#ebeadb;--card:#fffdf8;--green:#5e8a26;--green-l:#79a43d;--blue:#0b578b;--sun:#ffcf32;--tan:#e4e3cf;--line:rgba(19,42,60,.1);--r:22px;--disp:'Bricolage Grotesque',system-ui,sans-serif;--body:'Outfit',system-ui,sans-serif;--mono:'Geist Mono',ui-monospace,Menlo,monospace}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--body);color:var(--ink);background:var(--bg);line-height:1.55;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}
+.wrap{max-width:1260px;margin:0 auto;padding:0 32px}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--mut);display:flex;align-items:center;gap:10px;margin-bottom:22px}
+.eyebrow::before{content:'';width:7px;height:7px;border-radius:50%;background:var(--sun);box-shadow:0 0 0 4px rgba(255,207,50,.25)}
+h1,h2,h3,h4{font-family:var(--disp);font-weight:800;letter-spacing:-.035em;line-height:.98}
+h2{font-size:clamp(40px,5.2vw,68px);max-width:16ch}
+.acc{color:var(--green)}
+.lede{font-size:17px;color:var(--mut);max-width:560px;margin-top:22px}
+section{padding:120px 0;position:relative}
+.alt{background:var(--bg2)}
+.btn{display:inline-flex;align-items:center;gap:10px;background:var(--ink);color:#fff;font-weight:600;font-size:15px;padding:14px 24px;border-radius:999px;transition:transform .25s cubic-bezier(.2,.8,.2,1),background .25s;white-space:nowrap}
+.btn:hover{transform:translateY(-2px);background:var(--blue)}
+.btn .ar{transition:transform .25s}.btn:hover .ar{transform:translateX(4px)}
+.btn.light{background:var(--card);color:var(--ink);box-shadow:inset 0 0 0 1px var(--line)}
+.btn.light:hover{background:#fff}
+.more{display:inline-flex;align-items:center;gap:10px;font-weight:600;font-size:15px}
+.more small{font-family:var(--mono);font-size:12px;color:var(--mut)}
+.more span.ar{color:var(--green);transition:transform .25s}.more:hover span.ar{transform:translateX(4px)}
+.banner{background:var(--ink);color:#eef0e6;font-size:12.5px;text-align:center;padding:8px 16px;font-family:var(--mono);letter-spacing:.02em}
+.banner b{color:var(--sun);font-weight:500}
+nav{position:sticky;top:0;z-index:50;background:rgba(247,244,236,.86);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid transparent;transition:border-color .3s}
+nav.scrolled{border-color:var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:72px;gap:24px}
+.logo{display:flex;align-items:center;gap:10px;font-family:var(--disp);font-weight:800;font-size:20px;letter-spacing:-.03em;line-height:1}
+.logo img{width:34px;height:38px;object-fit:contain}
+.logo small{display:block;font-family:var(--body);font-weight:500;font-size:11px;letter-spacing:0;color:var(--mut);margin-top:3px}
+.links{display:flex;gap:30px;font-weight:500;font-size:15px}
+.links a{position:relative}.links a::after{content:'';position:absolute;left:0;right:0;bottom:-4px;height:2px;background:var(--green);transform:scaleX(0);transform-origin:left;transition:transform .3s}
+.links a:hover::after{transform:scaleX(1)}
+.nav-r{display:flex;align-items:center;gap:20px;font-weight:500;font-size:15px}
+.nav-r .btn{padding:11px 20px}
+.photo{position:relative;border-radius:32px;overflow:hidden;box-shadow:0 40px 80px -40px rgba(19,42,60,.45)}
+.photo img{width:100%;height:100%;object-fit:cover;transform:scale(1.08);transition:transform 1.6s cubic-bezier(.2,.8,.2,1)}
+.photo.in img{transform:scale(1)}
+/* hero: full-bleed photo with gradient fade, no frame */
+.hero{position:relative;min-height:calc(100vh - 106px);display:flex;align-items:center;padding:56px 0 110px;overflow:hidden;isolation:isolate}
+.hero-bg{position:absolute;top:0;right:0;bottom:0;width:66%;z-index:0}
+.hero-bg img{width:100%;height:100%;object-fit:cover;object-position:62% 30%;animation:heroIn 2.4s cubic-bezier(.2,.8,.2,1) both}
+.hero-bg::before{content:'';position:absolute;inset:0;z-index:1;background:linear-gradient(90deg,var(--bg) 0%,rgba(247,244,236,.94) 14%,rgba(247,244,236,.6) 32%,rgba(247,244,236,.14) 54%,rgba(247,244,236,0) 72%),linear-gradient(0deg,var(--bg) 0%,rgba(247,244,236,0) 22%)}
+.hero-bg::after{content:'';position:absolute;inset:0;z-index:2;background:radial-gradient(110% 90% at 88% 8%,rgba(255,224,140,.32),rgba(255,224,140,0) 60%);mix-blend-mode:soft-light}
+@keyframes heroIn{from{transform:scale(1.08);opacity:0}to{transform:none;opacity:1}}
+.hero-inner{position:relative;z-index:2;width:100%}
+.hero-copy{max-width:640px}
+.hero h1{font-size:clamp(60px,8.4vw,128px);letter-spacing:-.055em;line-height:.88}
+.hero .lede{font-size:18px;margin:28px 0 34px;max-width:480px;color:#46505a}
+.hero .cta{display:flex;gap:12px;flex-wrap:wrap}
+.badge{position:absolute;z-index:3;right:max(32px,calc((100vw - 1260px)/2 + 32px));bottom:44px;background:rgba(255,253,248,.94);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-radius:20px;padding:18px 24px;box-shadow:0 20px 50px -20px rgba(19,42,60,.4);text-align:right}
+.badge .k{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--mut)}
+.badge .v{font-family:var(--disp);font-weight:800;font-size:32px;letter-spacing:-.03em;line-height:1.05;margin-top:6px}
+.badge .v em{font-style:normal;color:var(--green)}
+.draw-hint{display:flex;align-items:center;gap:10px;margin-top:30px;font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--mut)}
+.crayons{display:flex;gap:6px}
+.crayons button{width:22px;height:22px;border-radius:50%;box-shadow:inset 0 0 0 2px rgba(255,255,255,.7),0 0 0 1px var(--line);transition:transform .2s}
+.crayons button.on{transform:scale(1.25)}
+#wall{position:absolute;inset:0;z-index:1;pointer-events:none}
+.hero.drawing #wall{pointer-events:auto;cursor:crosshair}
+.hero.drawing .hero-inner,.hero.drawing .badge{pointer-events:none}
+.hero.drawing .draw-hint{pointer-events:auto}
+#drawToggle{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;padding:7px 12px;border-radius:999px;background:var(--card);box-shadow:inset 0 0 0 1px var(--line)}
+.hero.drawing #drawToggle{background:var(--ink);color:#fff}
+.notice{background:var(--blue);color:#eef4f8;overflow:hidden;white-space:nowrap;font-family:var(--mono);font-size:13px;letter-spacing:.08em;text-transform:uppercase}
+.marquee{display:inline-flex;gap:48px;padding:14px 0;animation:mq 40s linear infinite}
+.marquee span::after{content:'✦';margin-left:48px;color:var(--sun)}
+@keyframes mq{to{transform:translateX(-50%)}}
+.why-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:60px;align-items:end;padding-top:20px;border-top:1px solid var(--line)}
+.why-list{display:grid;grid-template-columns:1fr 1fr;gap:18px 30px;margin-top:40px;list-style:none}
+.why-list li{display:flex;gap:12px;align-items:center;font-weight:500;font-size:16px}
+.why-list li::before{content:'';flex:none;width:22px;height:22px;border-radius:50%;background:#e3ebd2 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M6 12.5l4 4 8-9' fill='none' stroke='%235e8a26' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/14px no-repeat}
+.stats{display:grid;grid-template-columns:repeat(3,1fr)}
+.stat{padding:0 22px;border-left:1px solid var(--line)}
+.stat:first-child{border-left:0;padding-left:0}
+.stat .n{font-family:var(--disp);font-weight:800;font-size:clamp(44px,5vw,64px);letter-spacing:-.05em;line-height:1}
+.stat .n small{font-size:.5em;letter-spacing:-.02em}
+.stat .l{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--mut);margin-top:10px}
+.orgs{display:flex;align-items:center;gap:34px;flex-wrap:wrap;margin-top:56px;padding-top:28px;border-top:1px dashed var(--line)}
+.orgs span{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--mut)}
+.orgs img{height:46px;width:auto;mix-blend-mode:multiply;opacity:.9;transition:opacity .3s}
+.orgs img:hover{opacity:1}
+.head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:56px;flex-wrap:wrap}
+.programs{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.prog{background:var(--card);border-radius:var(--r);padding:10px;box-shadow:0 1px 0 var(--line),0 24px 50px -36px rgba(19,42,60,.4);transition:transform .45s cubic-bezier(.2,.8,.2,1),box-shadow .45s;display:flex;flex-direction:column}
+.prog:hover{transform:translateY(-8px) rotate(-.4deg);box-shadow:0 40px 60px -36px rgba(19,42,60,.5)}
+.prog .im{border-radius:15px;overflow:hidden;aspect-ratio:1/1;background:var(--tan)}
+.prog .im img{width:100%;height:100%;object-fit:cover;transition:transform .8s cubic-bezier(.2,.8,.2,1)}
+.prog:hover .im img{transform:scale(1.06)}
+.prog .b{padding:16px 10px 10px;display:flex;flex-direction:column;flex:1}
+.pill{display:inline-block;font-size:13px;font-weight:500;background:var(--bg);padding:7px 14px;border-radius:999px;align-self:flex-start}
+.pill.hl{background:var(--green);color:#fff}
+.prog h3{font-size:28px;margin:14px 0 8px}
+.prog p{color:var(--mut);font-size:15px}
+.prog .meta{font-family:var(--mono);font-size:12px;color:var(--mut);margin-top:auto;padding-top:14px;display:flex;gap:12px;flex-wrap:wrap}
+.day{height:340vh}
+.day-sticky{position:sticky;top:72px;height:calc(100vh - 72px);display:flex;flex-direction:column;justify-content:center;overflow:hidden}
+.track{position:relative;margin:34px 0 24px;height:30px}
+.track .ends{display:flex;justify-content:space-between;font-family:var(--mono);font-size:12px;color:var(--mut)}
+.track .line{position:absolute;left:0;right:0;top:26px;height:1px;background:rgba(19,42,60,.18)}
+.sun{position:absolute;top:13px;left:0;display:flex;align-items:center;gap:10px;transform:translateX(-13px)}
+.sun i{width:26px;height:26px;border-radius:50%;background:var(--sun);box-shadow:0 0 0 7px rgba(255,207,50,.28),0 0 30px rgba(255,207,50,.7)}
+.sun b{font-family:var(--mono);font-size:12px;font-weight:500;background:var(--bg2);padding:2px 6px}
+.cards{display:flex;gap:16px;will-change:transform;padding-left:32px}
+.hour{flex:none;width:300px;background:var(--card);border-radius:var(--r);padding:24px 24px 28px;box-shadow:0 24px 40px -30px rgba(19,42,60,.45);transition:transform .4s,box-shadow .4s}
+.hour.on{transform:translateY(-8px);box-shadow:0 34px 50px -30px rgba(19,42,60,.55)}
+.hour .t{font-family:var(--mono);font-size:12px;color:var(--mut);display:flex;align-items:center;gap:8px}
+.hour .t::before{content:'';width:8px;height:8px;border-radius:50%;background:var(--sun)}
+.hour h4{font-size:24px;margin:12px 0 10px}
+.hour p{font-size:15px;color:var(--mut)}
+.rooms{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}
+.room-img{position:sticky;top:110px;border-radius:26px;overflow:hidden;aspect-ratio:3/2;max-width:540px;width:100%;box-shadow:0 40px 70px -40px rgba(19,42,60,.5);background:var(--tan)}
+.room-img img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transform:scale(1.04);transition:opacity .7s,transform 1.2s}
+.room-img img.on{opacity:1;transform:scale(1)}
+.room-list{list-style:none}
+.room{border-top:1px solid var(--line);padding:22px 0;cursor:pointer;opacity:.38;transition:opacity .4s}
+.room:last-child{border-bottom:1px solid var(--line)}
+.room.on{opacity:1}
+.room h4{font-size:30px;display:flex;align-items:center;gap:14px}
+.room h4::before{content:'→';color:var(--green);font-family:var(--body);font-weight:500;width:0;overflow:hidden;transition:width .4s}
+.room.on h4::before{width:30px}
+.room p{color:var(--mut);margin-top:6px}
+.room ul{list-style:none;display:grid;gap:8px;margin-top:14px;max-height:0;overflow:hidden;transition:max-height .5s}
+.room.on ul{max-height:200px}
+.room ul li{display:flex;gap:10px;align-items:center;font-size:15px}
+.room ul li::before{content:'';flex:none;width:16px;height:16px;border-radius:50%;background:var(--sun) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M6 12.5l4 4 8-9' fill='none' stroke='%23132a3c' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E") center/10px no-repeat}
+.rail{display:flex;gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;padding:6px 32px 30px;scrollbar-width:none;cursor:grab}
+.rail::-webkit-scrollbar{display:none}
+.rail.drag{cursor:grabbing;scroll-snap-type:none}
+.person{flex:none;width:290px;scroll-snap-align:start;background:var(--card);border-radius:var(--r);padding:10px;box-shadow:0 24px 40px -32px rgba(19,42,60,.45);user-select:none}
+.person .im{aspect-ratio:4/3.4;border-radius:15px;overflow:hidden;background:var(--tan)}
+.person .im img{width:100%;height:100%;object-fit:cover;pointer-events:none}
+.person.lead .im img{object-position:50% 18%}
+.person .b{padding:18px 10px 10px}
+.person h4{font-size:24px}
+.person .role{color:var(--mut);font-size:14px;margin-top:4px}
+.person p{font-size:15px;margin-top:12px;min-height:46px}
+.person .foot{display:flex;justify-content:space-between;align-items:center;margin-top:18px}
+.person .foot span:first-child{font-family:var(--mono);font-size:12px;color:var(--mut)}
+.rail-hint{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--mut);margin-bottom:10px}
+.notes-grid{display:grid;grid-template-columns:.75fr 1.25fr;gap:60px}
+.notes{columns:2 280px;column-gap:22px}
+.note{break-inside:avoid;background:var(--card);border-radius:16px;padding:30px 26px 24px;margin-bottom:26px;position:relative;box-shadow:0 22px 40px -28px rgba(19,42,60,.45);transition:transform .4s,opacity .9s}
+.note::before{content:'';position:absolute;top:-8px;left:50%;width:16px;height:16px;margin-left:-8px;border-radius:50%;background:var(--sun);box-shadow:0 3px 6px rgba(0,0,0,.2)}
+.note:nth-child(3n+2)::before{background:var(--blue)}
+.note:nth-child(3n)::before{background:var(--green-l)}
+.note.rv{opacity:0;transform:rotate(var(--rot,0deg)) translateY(28px)}
+.note.rv.in{opacity:1;transform:rotate(var(--rot,0deg))}
+.note.rv.in:hover{transform:rotate(0) translateY(-4px)}
+.stars{color:#e6b400;letter-spacing:3px;font-size:14px;margin-bottom:12px}
+.note blockquote{font-family:var(--disp);font-weight:700;font-size:20px;letter-spacing:-.015em;line-height:1.3}
+.note .src{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:18px;font-size:13px;color:var(--mut)}
+.who{display:flex;align-items:center;gap:12px;line-height:1.3}
+.who i{font-style:normal;flex:none;width:38px;height:38px;border-radius:50%;display:grid;place-items:center;background:#e3ebd2;color:var(--green);font-family:var(--disp);font-weight:800;font-size:17px}
+.who b{color:var(--ink);font-weight:600}
+.big-n{font-family:var(--disp);font-weight:800;font-size:clamp(90px,11vw,150px);letter-spacing:-.06em;line-height:.9;margin-top:40px;color:var(--green)}
+.big-n small{display:block;font-family:var(--mono);font-size:12px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:var(--mut);margin-top:12px}
+.plans{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;align-items:stretch}
+.plan{background:var(--card);border-radius:var(--r);padding:32px 30px;box-shadow:0 24px 50px -36px rgba(19,42,60,.4);display:flex;flex-direction:column;transition:transform .4s,opacity .9s}
+.plan:hover{transform:translateY(-6px)}
+.plan.hl{background:var(--ink);color:#eef0e6}
+.plan .top{display:flex;justify-content:space-between;align-items:center}
+.plan .top b{font-family:var(--disp);font-size:22px;letter-spacing:-.02em}
+.plan .tag{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;background:var(--sun);color:var(--ink);padding:5px 10px;border-radius:999px}
+.plan .sub{color:var(--mut);font-size:14px;margin-top:6px}
+.plan.hl .sub,.plan.hl .per{color:rgba(238,240,230,.65)}
+.plan .price{font-family:var(--disp);font-weight:800;font-size:54px;letter-spacing:-.05em;margin:26px 0 4px;line-height:1}
+.plan .price small{font-size:.45em;letter-spacing:-.02em}
+.plan .per{font-family:var(--mono);font-size:12px;color:var(--mut)}
+.plan ul{list-style:none;margin:26px 0 30px;display:grid;gap:12px;font-size:15px;flex:1}
+.plan ul li{display:flex;gap:10px}
+.plan ul li::before{content:'✓';color:var(--green);font-weight:700}
+.plan.hl ul li::before{color:var(--sun)}
+.plan .btn{justify-content:center}
+.plan.hl .btn{background:var(--sun);color:var(--ink)}
+.fine{text-align:center;font-family:var(--mono);font-size:12px;color:var(--mut);margin-top:34px}
+.faq-grid{display:grid;grid-template-columns:1.4fr .6fr;gap:60px;align-items:start}
+.qa{border-top:1px solid var(--line)}
+.qa:last-child{border-bottom:1px solid var(--line)}
+.qa button{width:100%;display:flex;justify-content:space-between;align-items:center;gap:20px;text-align:left;padding:24px 0;font-family:var(--disp);font-weight:700;font-size:22px;letter-spacing:-.02em}
+.qa button i{flex:none;width:30px;height:30px;border-radius:50%;box-shadow:inset 0 0 0 1px var(--line);position:relative;transition:background .3s,transform .4s}
+.qa button i::before,.qa button i::after{content:'';position:absolute;left:50%;top:50%;width:11px;height:2px;margin:-1px 0 0 -5.5px;background:currentColor;border-radius:2px}
+.qa button i::after{transform:rotate(90deg);transition:transform .3s}
+.qa.open button i{background:var(--ink);color:#fff;transform:rotate(180deg)}
+.qa.open button i::after{transform:rotate(0)}
+.qa .a{display:grid;grid-template-rows:0fr;transition:grid-template-rows .45s cubic-bezier(.2,.8,.2,1)}
+.qa.open .a{grid-template-rows:1fr}
+.qa .a>div{overflow:hidden}
+.qa .a p{color:var(--mut);max-width:620px;padding-bottom:24px}
+.ask{position:sticky;top:110px;background:var(--card);border-radius:var(--r);padding:30px}
+.ask .mk img{width:40px;height:44px;object-fit:contain}
+.ask h4{font-size:28px;margin:12px 0 10px}
+.ask p{color:var(--mut);font-size:15px}
+.ask dl{margin:22px 0;display:grid;gap:12px;font-size:15px}
+.ask dt{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--mut)}
+.ask dd{font-weight:500}
+.visit{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin:10px 0 26px}
+.chip{background:var(--card);padding:10px 18px;border-radius:999px;font-weight:500;font-size:15px;box-shadow:inset 0 0 0 1px var(--line);transition:background .25s,color .25s,transform .2s}
+.chip:hover{transform:translateY(-2px)}
+.chip.on{background:var(--ink);color:#fff}
+.q-l{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--mut);margin-top:30px}
+.visit .row{display:flex;align-items:center;gap:20px;flex-wrap:wrap;margin-top:8px}
+.visit .row small{font-size:14px;color:var(--mut)}
+.visit .row small b{color:var(--ink);font-weight:600}
+.btn.wait{background:#8b9096}
+.dirs{margin-top:28px;font-size:14px;color:var(--mut);max-width:520px;border-left:3px solid var(--green-l);padding-left:16px}
+footer{background:var(--ink);color:#d5dbe0;padding:90px 0 40px;overflow:hidden}
+.f-top{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:40px}
+.f-brand img{height:64px;width:auto;background:#fff;border-radius:14px;padding:8px 12px}
+.f-brand small{display:block;font-size:13px;color:#9aa6b0;margin-top:12px}
+footer h5{font-family:var(--mono);font-size:11px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:#9aa6b0;margin-bottom:16px}
+footer ul{list-style:none;display:grid;gap:10px;font-size:15px}
+footer a:hover{color:var(--sun)}
+.f-contact{margin-top:26px;display:grid;gap:10px;font-size:15px}
+.f-contact span{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#9aa6b0;display:inline-block;width:62px}
+.clock{font-family:var(--disp);font-weight:800;font-size:44px;color:#fff;letter-spacing:-.04em;margin-top:8px}
+.big-word{font-family:var(--disp);font-weight:800;font-size:clamp(64px,15.5vw,230px);letter-spacing:-.06em;line-height:.8;color:#f7f4ec;margin:80px 0 30px;white-space:nowrap}
+.big-word span{color:var(--sun)}
+.f-bot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;border-top:1px solid rgba(255,255,255,.12);padding-top:24px;font-size:13px;color:#9aa6b0}
+.totop{color:#fff;font-weight:500}
+.split .w{display:inline-block;overflow:hidden;vertical-align:top;padding-bottom:.08em;margin-bottom:-.08em}
+.split .w>span{display:inline-block;transform:translateY(105%) rotate(4deg);transition:transform .9s cubic-bezier(.2,.8,.2,1);transition-delay:calc(var(--i)*55ms)}
+.split.in .w>span{transform:none}
+.rv{opacity:0;transform:translateY(28px);transition:opacity .9s cubic-bezier(.2,.8,.2,1),transform .9s cubic-bezier(.2,.8,.2,1);transition-delay:var(--d,0s)}
+.rv.in{opacity:1;transform:none}
+.uline{position:relative;white-space:nowrap}
+.uline svg{position:absolute;left:0;bottom:-.12em;width:100%;height:.28em;overflow:visible}
+.uline path{fill:none;stroke:var(--sun);stroke-width:5;stroke-linecap:round;stroke-dasharray:400;stroke-dashoffset:400;transition:stroke-dashoffset 1.2s .6s cubic-bezier(.2,.8,.2,1)}
+.in .uline path{stroke-dashoffset:0}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv,.split .w>span{opacity:1;transform:none}}
+@media(max-width:1100px){.programs{grid-template-columns:1fr 1fr}}
+@media(max-width:1020px){.links{display:none}.why-grid,.rooms,.notes-grid,.faq-grid,.visit{grid-template-columns:1fr}.plans{grid-template-columns:1fr}.f-top{grid-template-columns:1fr 1fr}.room-img,.ask{position:relative;top:0}
+.hero{display:block;min-height:0;padding:0 0 64px}.hero-bg{position:relative;width:100%;height:58vh;min-height:360px}.hero-bg img{object-position:70% 30%}.hero-bg::before{background:linear-gradient(0deg,var(--bg) 0%,rgba(247,244,236,.6) 22%,rgba(247,244,236,0) 50%)}.hero-inner{margin-top:-70px}.badge{right:16px;bottom:auto;top:calc(max(58vh,360px) - 205px);text-align:left;padding:14px 18px}}
+@media(max-width:640px){.wrap{padding:0 16px}section{padding:80px 0}.nav-r .tel{display:none}.logo{font-size:16px}.nav-r .btn{padding:9px 14px;font-size:13px}.programs{grid-template-columns:1fr}.why-list{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr 1fr}.stat{padding:0 10px}.stat .n{font-size:32px}.hour{width:260px}.cards,.rail{padding-left:16px}.f-top{grid-template-columns:1fr}.qa button{font-size:19px}.badge .v{font-size:22px}.badge .k{font-size:10px}.badge .k span{display:none}.orgs{gap:20px}.orgs img{height:34px}}
+</style>
+</head>
+<body>
+<div class="banner">Concept preview prepared by <b>Virtual Media Hive</b> for Pine Lake Montessori School — not an official site.</div>
+
+<nav id="nav"><div class="wrap">
+  <a class="logo" href="#top"><img src="logo-tree.png" alt="Pine Lake Montessori School pine tree logo"><span>Pine Lake<small>Montessori School</small></span></a>
+  <div class="links"><a href="#programs">Programs</a><a href="#day">A day here</a><a href="#classroom">Classroom</a><a href="#families">Families</a><a href="#faq">FAQ</a></div>
+  <div class="nav-r"><a class="tel" href="tel:+14162279100">(416) 227-9100</a><a class="btn" href="#visit">Book a tour</a></div>
+</div></nav>
+
+<header class="hero" id="top">
+  <div class="hero-bg" aria-hidden="true"><img src="hero.jpg" alt=""></div>
+  <canvas id="wall" aria-hidden="true"></canvas>
+  <div class="wrap hero-inner">
+    <div class="hero-copy">
+      <div class="eyebrow rv">Toddler · Casa · Lower Elementary · North York</div>
+      <h1 class="split" data-split>Where young minds take <span class="acc">root.</span></h1>
+      <p class="lede rv" style="--d:.35s">A licensed Montessori school in North York, Toronto — a safe, nurturing place where children from 18 months to Grade 4 learn at their own pace.</p>
+      <div class="cta rv" style="--d:.5s"><a class="btn" href="#visit">Book a tour <span class="ar">→</span></a><a class="btn light" href="#programs">See our programs</a></div>
+      <div class="draw-hint rv" style="--d:.65s"><button id="drawToggle" type="button">✎ Draw on the wall</button><div class="crayons" id="crayons"></div></div>
+    </div>
+  </div>
+  <div class="badge rv" style="--d:.8s"><div class="k">Licensed by the Ministry of Education<span> · Ontario</span></div><div class="v">Learning in North York <em>since 2012</em></div></div>
+</header>
+
+<div class="notice" aria-label="Announcements"><div class="marquee">
+  <span>Applications accepted all year, space permitting</span><span>Before care from 7:00 am · after care until 6:00 pm</span><span>255 Sheppard Ave W, North York</span><span>French every day in Casa</span>
+  <span>Applications accepted all year, space permitting</span><span>Before care from 7:00 am · after care until 6:00 pm</span><span>255 Sheppard Ave W, North York</span><span>French every day in Casa</span>
+</div></div>
+
+<section id="why" style="padding-bottom:60px"><div class="wrap">
+  <div class="why-grid">
+    <div>
+      <h2 class="split" data-split style="margin-top:40px">Why families pick <span class="acc">Pine Lake.</span></h2>
+      <ul class="why-list">
+        <li class="rv">Licensed by the Ministry of Education</li>
+        <li class="rv" style="--d:.08s">Mixed-age Montessori classrooms</li>
+        <li class="rv" style="--d:.16s">French every day in Casa</li>
+        <li class="rv" style="--d:.24s">Hot lunch, prepared fresh daily</li>
+      </ul>
+    </div>
+    <div class="stats">
+      <div class="stat rv"><div class="n" data-count="2012">0</div><div class="l">The year we opened</div></div>
+      <div class="stat rv" style="--d:.1s"><div class="n"><small>1:</small><span data-count="5">0</span></div><div class="l">Toddler ratio</div></div>
+      <div class="stat rv" style="--d:.2s"><div class="n"><small>1:</small><span data-count="8">0</span></div><div class="l">Casa ratio</div></div>
+    </div>
+  </div>
+  <div class="orgs rv"><span>Organizations</span><img src="logo-ontario.png" alt="Ontario Ministry of Education"><img src="logo-ccma.png" alt="CCMA"><img src="logo-ofis.png" alt="Ontario Federation of Independent Schools"></div>
+</div></section>
+
+<section id="programs" style="padding-top:60px"><div class="wrap">
+  <div class="head">
+    <div><div class="eyebrow rv">Four programs, 18 months to Grade 4</div>
+      <h2 class="split" data-split>A classroom for every <span class="acc">stage.</span></h2>
+      <p class="lede rv">Rooted in Dr. Maria Montessori's approach to the whole child — math, language and science alongside leadership, concentration, self-discipline and respect for self and others.</p></div>
+    <a class="more rv" href="#faq"><small>04</small>Common questions <span class="ar">→</span></a>
+  </div>
+  <div class="programs">
+    <article class="prog rv">
+      <div class="im"><img src="toddler-reading.jpg" alt="A toddler reading a picture book"></div>
+      <div class="b"><span class="pill">18 months – 3 years</span><h3>Toddlers</h3>
+        <p>Practical life, sensorial play, daily stories, and Music Garden and movement twice a week.</p>
+        <div class="meta"><span>Ratio 1:5</span><span>7:00 am – 6:00 pm</span></div></div>
+    </article>
+    <article class="prog rv" style="--d:.08s">
+      <div class="im"><img src="casa-girl.png" alt="A Casa student writing"></div>
+      <div class="b"><span class="pill">3 – 6 years</span><h3>Casa</h3>
+        <p>Children's House: practical life, sensorial, language, math, culture — and French every day.</p>
+        <div class="meta"><span>Ratio 1:8</span><span>Same teachers, 3 years</span></div></div>
+    </article>
+    <article class="prog rv" style="--d:.16s">
+      <div class="im"><img src="elementary-readers.jpg" alt="Elementary students reading together"></div>
+      <div class="b"><span class="pill">Grades 1 – 4</span><h3>Lower Elementary</h3>
+        <p>A strong academic foundation with small classes, daily planners, French, and outdoor science.</p>
+        <div class="meta"><span>Small ratios</span><span>Weekly rec centre visits</span></div></div>
+    </article>
+    <article class="prog rv" style="--d:.24s">
+      <div class="im"><img src="summer-camp.jpg" alt="A child holding a baby rabbit"></div>
+      <div class="b"><span class="pill hl">Summer</span><h3>Summer Camp</h3>
+        <p>Arts and crafts, music, cooking and baking, themed weeks and plenty of time outdoors.</p>
+        <div class="meta"><span>18 months – 6 years</span><span>Toddler &amp; Casa</span></div></div>
+    </article>
+  </div>
+</div></section>
+
+<section class="alt day" id="day">
+  <div class="day-sticky">
+    <div class="wrap">
+      <div class="eyebrow">A day at Pine Lake</div>
+      <h2 class="split" data-split>One day, <span class="acc">told</span> by the hour.</h2>
+      <p class="lede">Before care opens at 7:00 am and the last child heads home by 6:00 pm. In between: the morning work cycle, the playground, a hot lunch, a nap for the little ones, and French.</p>
+      <div class="track"><div class="ends"><span>7:00</span><span>18:00</span></div><div class="line"></div><div class="sun" id="sun"><i></i><b id="sunTime">7:00</b></div></div>
+    </div>
+    <div class="cards" id="cards">
+      <div class="hour"><div class="t">7:00</div><h4>Before care</h4><p>Doors open for early drop-off. Toddlers begin their day here.</p></div>
+      <div class="hour"><div class="t">8:00</div><h4>Casa arrives</h4><p>Coats on hooks, indoor shoes on, and into the classroom.</p></div>
+      <div class="hour"><div class="t">9:00</div><h4>Morning snack</h4><p>Toddlers help prepare and serve their own snack.</p></div>
+      <div class="hour"><div class="t">Morning</div><h4>Work cycle</h4><p>Practical life, sensorial, language, math and culture — each child following their own interests.</p></div>
+      <div class="hour"><div class="t">Late morning</div><h4>Outdoor play</h4><p>Time on the playground to run, climb and explore.</p></div>
+      <div class="hour"><div class="t">11:30</div><h4>Hot lunch</h4><p>Prepared fresh daily, following Canada's Food Guide — with grace and courtesy at the table.</p></div>
+      <div class="hour"><div class="t">12:30</div><h4>Nap time</h4><p>Toddlers rest until 2:30 while the older children carry on.</p></div>
+      <div class="hour"><div class="t">Afternoon</div><h4>French &amp; culture</h4><p>Songs, games and conversation in French, plus geography, science and the arts.</p></div>
+      <div class="hour"><div class="t">16:00</div><h4>Pick-up</h4><p>Casa dismissal between 4:00 and 5:00 pm.</p></div>
+      <div class="hour"><div class="t">17:00</div><h4>After care</h4><p>Quiet play until the last pick-up at 6:00 pm.</p></div>
+    </div>
+    <div class="wrap" style="margin-top:28px"><a class="more" href="#visit"><small>10</small>See it for yourself <span class="ar">→</span></a></div>
+  </div>
+</section>
+
+<section id="classroom"><div class="wrap">
+  <div class="eyebrow rv">The prepared environment</div>
+  <h2 class="split" data-split>Five areas, one <span class="acc">classroom.</span></h2>
+  <p class="lede rv" style="margin-bottom:56px">Hands-on, self-correcting Montessori materials let children learn by doing, touching and experiencing. Hover each area to look around.</p>
+  <div class="rooms">
+    <div class="room-img rv" id="roomImg">
+      <img class="on" src="casa-practical-life.jpg" alt="A practical life tray set on a classroom table">
+      <img src="casa-sensorial.jpg" alt="Sensorial cylinder blocks">
+      <img src="casa-language.jpg" alt="Sandpaper letters on a classroom shelf">
+      <img src="programs-hands.jpg" alt="A child working with Montessori math materials">
+      <img src="globe-girl.jpg" alt="A student holding a globe">
+    </div>
+    <ul class="room-list" id="roomList">
+      <li class="room on"><h4>Practical life</h4><p>Everyday skills that build independence.</p>
+        <ul><li>Dressing and self-care</li><li>Preparing snacks</li><li>Caring for the classroom</li></ul></li>
+      <li class="room"><h4>Sensorial</h4><p>Materials that sharpen the senses.</p>
+        <ul><li>Shapes, sizes and colours</li><li>Textures, tastes and smells</li><li>Length, volume and sequence</li></ul></li>
+      <li class="room"><h4>Language</h4><p>From first words to writing journals.</p>
+        <ul><li>Daily story times</li><li>Picture and sequence cards</li><li>Reading and writing at their own pace</li></ul></li>
+      <li class="room"><h4>Math</h4><p>Counting, measuring and real understanding.</p>
+        <ul><li>Concrete materials first</li><li>Counting and rhythm every day</li><li>Progress without a fixed timeline</li></ul></li>
+      <li class="room"><h4>Culture &amp; French</h4><p>The world, brought into the classroom.</p>
+        <ul><li>Geography, science, history, art</li><li>Traditions, food and songs from many countries</li><li>French games, plays and conversation</li></ul></li>
+    </ul>
+  </div>
+</div></section>
+
+<section id="staff" style="padding-top:40px">
+  <div class="wrap"><div class="head">
+    <div><div class="eyebrow rv">The people</div>
+      <h2 class="split" data-split>Teachers who guide, not <span class="acc uline">lecture.<svg viewBox="0 0 200 20" preserveAspectRatio="none"><path d="M2 14 C 50 4, 120 4, 198 12"/></svg></span></h2>
+      <p class="lede rv">Specially trained Montessori teachers who stay with the same children for three years, so every child is known.</p></div>
+    <div class="rv"><div class="rail-hint">Drag sideways →</div></div>
+  </div></div>
+  <div class="rail" id="rail">
+    <div class="person lead"><div class="im"><img src="director.jpg" alt="Sue Eirdmousa, Director"></div><div class="b"><h4>Sue Eirdmousa</h4><div class="role">Founder &amp; Director</div><p>Opened Pine Lake in 2012 to share Dr. Montessori's vision.</p><div class="foot"><span>Since 2012</span><span class="pill">All programs</span></div></div></div>
+    <div class="person"><div class="im"><img src="toddler-sensorial.jpg" alt=""></div><div class="b"><h4>Toddler teachers</h4><div class="role">18 months – 3 years</div><p>One teacher for every five toddlers.</p><div class="foot"><span>Ratio 1:5</span><span class="pill">Toddlers</span></div></div></div>
+    <div class="person"><div class="im"><img src="casa-storytime.jpg" alt=""></div><div class="b"><h4>Casa teachers</h4><div class="role">Children's House, 3 – 6 years</div><p>The same teachers for three years.</p><div class="foot"><span>Ratio 1:8</span><span class="pill">Casa</span></div></div></div>
+    <div class="person"><div class="im"><img src="casa-culture.jpg" alt=""></div><div class="b"><h4>French teacher</h4><div class="role">Every day in Casa</div><p>Songs, games, plays and conversation.</p><div class="foot"><span>Daily</span><span class="pill">French</span></div></div></div>
+    <div class="person"><div class="im"><img src="plant-boy.jpg" alt=""></div><div class="b"><h4>Elementary teachers</h4><div class="role">Grades 1 – 4</div><p>Small classes and one-on-one attention.</p><div class="foot"><span>Small ratios</span><span class="pill">Elementary</span></div></div></div>
+    <div class="person"><div class="im"><img src="toddler-math.jpg" alt=""></div><div class="b"><h4>Music &amp; movement</h4><div class="role">Music Garden</div><p>Music and movement class twice a week.</p><div class="foot"><span>Twice weekly</span><span class="pill">Toddlers</span></div></div></div>
+  </div>
+</section>
+
+<section class="alt" id="families"><div class="wrap notes-grid">
+  <div>
+    <div class="eyebrow rv">What families say</div>
+    <h2 class="split" data-split>Notes from our <span class="acc">families.</span></h2>
+    <p class="lede rv">Every family's story is a little different. These are a few, in their own words.</p>
+    <div class="big-n rv">7<small>Family reviews on our site</small></div>
+    <a class="more rv" style="margin-top:28px" href="https://www.pinelakemontessori.com/montessori-school-reviews/" target="_blank" rel="noopener"><small>07</small>Read every review <span class="ar">→</span></a>
+  </div>
+  <div class="notes">
+    <figure class="note rv" style="--rot:-1.4deg"><div class="stars">★★★★★</div><blockquote>“It's been the best decision we've made.”</blockquote><figcaption class="src"><span class="who"><i>E</i><span><b>Eugene &amp; Alexandra</b><br>Pine Lake parents</span></span></figcaption></figure>
+    <figure class="note rv" style="--rot:1.2deg;--d:.1s"><div class="stars">★★★★★</div><blockquote>“What I really like about this school, is that it's non-denominational and inclusive.”</blockquote><figcaption class="src"><span class="who"><i>J</i><span><b>Judith &amp; Ed</b><br>Casa parents</span></span><span class="pill">Casa</span></figcaption></figure>
+    <figure class="note rv" style="--rot:.8deg;--d:.05s"><div class="stars">★★★★★</div><blockquote>“We were amazed at how rapidly they matured and developed during their time at PLMS.”</blockquote><figcaption class="src"><span class="who"><i>B</i><span><b>Brent &amp; Megan</b><br>Pine Lake parents</span></span></figcaption></figure>
+    <figure class="note rv" style="--rot:-1deg;--d:.15s"><div class="stars">★★★★★</div><blockquote>“We can't be more pleased with our choice.”</blockquote><figcaption class="src"><span class="who"><i>J</i><span><b>Jocelyn &amp; Douglas</b><br>Toddler parents</span></span><span class="pill">Toddlers</span></figcaption></figure>
+    <figure class="note rv" style="--rot:-.6deg;--d:.1s"><div class="stars">★★★★★</div><blockquote>“Our boys truly loved attending this camp.”</blockquote><figcaption class="src"><span class="who"><i>A</i><span><b>Anne &amp; Jeffery</b><br>Camp parents</span></span><span class="pill">Summer</span></figcaption></figure>
+    <figure class="note rv" style="--rot:1.4deg;--d:.2s"><div class="stars">★★★★★</div><blockquote>“Tobias runs out of pages in his writing journal during writing time.”</blockquote><figcaption class="src"><span class="who"><i>L</i><span><b>Lucy &amp; Kofi</b><br>Pine Lake parents</span></span></figcaption></figure>
+  </div>
+</div></section>
+
+<section id="schedules"><div class="wrap">
+  <div class="head">
+    <div><div class="eyebrow rv">Schedules &amp; tuition</div>
+      <h2 class="split" data-split>Full days that fit <span class="acc">working</span> families.</h2>
+      <p class="lede rv">Full-day programs five days a week, with before and after care. Tuition and forms are available from the school.</p></div>
+    <a class="more rv" href="https://www.pinelakemontessori.com/toronto-montessori-school-tuition/" target="_blank" rel="noopener"><small>Fees</small>Tuition fees &amp; forms <span class="ar">→</span></a>
+  </div>
+  <div class="plans">
+    <div class="plan rv"><div class="top"><b>Toddler day</b></div><div class="sub">18 months – 3 years</div>
+      <div class="price">7<small>am</small>–6<small>pm</small></div><div class="per">five days a week</div>
+      <ul><li>Snack at 9:00, lunch at 12:00</li><li>Nap from 12:30 to 2:30</li><li>Music Garden twice a week</li><li>One teacher for every five</li></ul>
+      <a class="btn light" href="#visit">Book a tour</a></div>
+    <div class="plan hl rv" style="--d:.1s"><div class="top"><b>Casa day</b><span class="tag">Most families</span></div><div class="sub">Children's House, 3 – 6 years</div>
+      <div class="price">8<small>am</small>–4<small>pm</small></div><div class="per">five days a week · pick-up until 5:00</div>
+      <ul><li>French every day</li><li>Hot lunch included daily</li><li>Same teachers for three years</li><li>One teacher for every eight</li></ul>
+      <a class="btn" href="#visit">Book a tour</a></div>
+    <div class="plan rv" style="--d:.2s"><div class="top"><b>Extended care</b></div><div class="sub">Before and after school</div>
+      <div class="price">+2<small>hours</small></div><div class="per">7:00–8:00 am · 5:00–6:00 pm</div>
+      <ul><li>Early drop-off from 7:00 am</li><li>Late pick-up until 6:00 pm</li><li>Supervised quiet play</li><li>Ask about availability</li></ul>
+      <a class="btn light" href="#visit">Ask about care</a></div>
+  </div>
+  <p class="fine rv">New applications accepted throughout the year, space permitting · join the waiting list online</p>
+</div></section>
+
+<section class="alt" id="faq"><div class="wrap">
+  <div class="eyebrow rv">Questions</div>
+  <h2 class="split" data-split>The things parents <span class="acc">ask</span> us first.</h2>
+  <p class="lede rv" style="margin-bottom:50px">Short answers to what every family wants to know before a tour. Anything else, call or write.</p>
+  <div class="faq-grid">
+    <div>
+      <div class="qa open"><button type="button">What ages do you take?<i></i></button><div class="a"><div><p>Toddlers from 18 months to 3 years, Casa (Children's House) from 3 to 6 years, and Lower Elementary from Grade 1 to Grade 4.</p></div></div></div>
+      <div class="qa"><button type="button">When can we enrol?<i></i></button><div class="a"><div><p>New applications are accepted throughout the year, space permitting. You can also join the waiting list online.</p></div></div></div>
+      <div class="qa"><button type="button">Do you offer before and after care?<i></i></button><div class="a"><div><p>Yes. Before care runs from 7:00 to 8:00 am and after care from 5:00 to 6:00 pm.</p></div></div></div>
+      <div class="qa"><button type="button">How many children per teacher?<i></i></button><div class="a"><div><p>One teacher for every five toddlers, and one teacher for every eight children in Casa.</p></div></div></div>
+      <div class="qa"><button type="button">Is lunch provided?<i></i></button><div class="a"><div><p>Yes. A hot lunch and snacks are prepared fresh daily by a caterer that specializes in healthy meals for children, following Canada's Food Guide.</p></div></div></div>
+      <div class="qa"><button type="button">Do children learn French?<i></i></button><div class="a"><div><p>Yes. Casa students learn French every day through games, plays and conversation, and French continues in Lower Elementary.</p></div></div></div>
+      <div class="qa"><button type="button">Is Pine Lake religious?<i></i></button><div class="a"><div><p>No. Pine Lake is non-denominational and inclusive, and celebrates traditions, food and songs from many cultures.</p></div></div></div>
+      <div class="qa"><button type="button">Can we visit the school?<i></i></button><div class="a"><div><p>Yes — book a tour online or call us. Virtual tours and meetings are also available.</p></div></div></div>
+    </div>
+    <aside class="ask rv"><div class="mk"><img src="logo-tree.png" alt=""></div><h4>Still a question?</h4><p>Ask us anything about the programs, the schedule or the waiting list.</p>
+      <dl><div><dt>Call</dt><dd><a href="tel:+14162279100">(416) 227-9100</a></dd></div><div><dt>Email</dt><dd><a href="mailto:info@pinelakemontessori.com">info@pinelakemontessori.com</a></dd></div></dl>
+      <a class="btn light" href="mailto:info@pinelakemontessori.com">Write to us <span class="ar">→</span></a></aside>
+  </div>
+</div></section>
+
+<section id="visit"><div class="wrap visit">
+  <div>
+    <div class="eyebrow rv">Come and see it</div>
+    <h2 class="split" data-split>Come and see it for <span class="acc">yourself.</span></h2>
+    <p class="lede rv">Tell us the program and start you have in mind, and we'll make sure the right teacher is there to show you around.</p>
+    <div class="q-l">Which program?</div>
+    <div class="chips"><button class="chip" type="button">Toddlers</button><button class="chip" type="button">Casa</button><button class="chip" type="button">Lower Elementary</button><button class="chip" type="button">Summer Camp</button></div>
+    <div class="q-l" style="margin-top:6px">When would you start?</div>
+    <div class="chips"><button class="chip" type="button">As soon as possible</button><button class="chip" type="button">September</button><button class="chip" type="button">Summer</button></div>
+    <div class="row"><a class="btn wait" id="visitBtn" href="https://www.pinelakemontessori.com/montessori-school-toronto/" target="_blank" rel="noopener">Book a tour <span class="ar">→</span></a><small>or call <b><a href="tel:+14162279100">(416) 227-9100</a></b></small></div>
+    <p class="dirs">255 Sheppard Ave W, North York, ON M2N 1N2 · <a href="https://maps.google.com/?q=255+Sheppard+Ave+W+North+York+ON+M2N+1N2" target="_blank" rel="noopener" style="color:var(--green);font-weight:600">Map &amp; directions →</a></p>
+  </div>
+  <div class="rv" style="--d:.15s"><div class="photo" style="aspect-ratio:1/1"><img src="toddler-reading.jpg" alt="A child reading at Pine Lake Montessori"></div></div>
+</div></section>
+
+<footer><div class="wrap">
+  <div class="f-top">
+    <div>
+      <div class="f-brand"><img src="logo.png" alt="Pine Lake Montessori School"><small>Toddler, Casa, Lower Elementary &amp; Summer Camp</small></div>
+      <div class="f-contact">
+        <div><span>Visit</span>255 Sheppard Ave W, North York, ON M2N 1N2</div>
+        <div><span>Call</span><a href="tel:+14162279100">(416) 227-9100</a></div>
+        <div><span>Email</span><a href="mailto:info@pinelakemontessori.com">info@pinelakemontessori.com</a></div>
+      </div>
+    </div>
+    <div><h5>School</h5><ul><li><a href="#programs">Programs</a></li><li><a href="#day">A day here</a></li><li><a href="#classroom">Classroom</a></li><li><a href="#staff">Teachers</a></li></ul></div>
+    <div><h5>Parents</h5><ul><li><a href="#schedules">Schedules</a></li><li><a href="#families">Reviews</a></li><li><a href="#visit">Book a tour</a></li><li><a href="https://www.pinelakemontessori.com/waiting-list-online-registration/" target="_blank" rel="noopener">Waiting list</a></li></ul></div>
+    <div><h5>Hours</h5><p style="font-size:15px">Mon to Fri, 7:00 am to 6:00 pm</p><div class="clock" id="clock">--:--</div><p style="font-size:13px;color:#9aa6b0">now in Toronto</p>
+      <h5 style="margin-top:22px">Follow</h5><ul style="display:flex;gap:14px;flex-wrap:wrap"><li><a href="https://www.instagram.com/pinelakemontessori/" target="_blank" rel="noopener">Instagram</a></li><li><a href="https://www.facebook.com/Pine-Lake-Montessori-School-315420091886747/" target="_blank" rel="noopener">Facebook</a></li><li><a href="https://www.linkedin.com/company/pine-lake-montessori-school/" target="_blank" rel="noopener">LinkedIn</a></li><li><a href="https://twitter.com/PLMSSchool" target="_blank" rel="noopener">X</a></li></ul></div>
+  </div>
+  <div class="big-word">Pine Lake<span>.</span></div>
+  <div class="f-bot"><span>© 2026 Pine Lake Montessori School · North York, Toronto</span><span>Concept design by Virtual Media Hive · <a class="totop" href="#top">Back to top ↑</a></span></div>
+</div></footer>
+
+<script>
+document.querySelectorAll('[data-split]').forEach(el=>{let i=0;const walk=n=>{[...n.childNodes].forEach(c=>{if(c.nodeType===3){const f=document.createDocumentFragment();c.textContent.split(/(\s+)/).forEach(t=>{if(!t)return;if(/^\s+$/.test(t)){f.append(t);return}const w=document.createElement('span');w.className='w';const s=document.createElement('span');s.textContent=t;s.style.setProperty('--i',i++);w.append(s);f.append(w)});c.replaceWith(f)}else if(c.nodeType===1&&c.tagName.toLowerCase()!=='svg'){walk(c)}})};walk(el)});
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.15,rootMargin:'0px 0px -6% 0px'});
+document.querySelectorAll('.rv,.split,.photo').forEach(el=>io.observe(el));
+const nav=document.getElementById('nav');addEventListener('scroll',()=>nav.classList.toggle('scrolled',scrollY>10),{passive:true});
+const cio=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;const el=e.target,to=+el.dataset.count,from=to>1000?to-60:0;let t0=null;const step=t=>{if(t0===null)t0=t;const p=Math.min((t-t0)/1400,1);el.textContent=Math.round(from+(to-from)*(1-Math.pow(1-p,3)));if(p<1)requestAnimationFrame(step)};requestAnimationFrame(step);cio.unobserve(el)}),{threshold:.6});
+document.querySelectorAll('[data-count]').forEach(el=>cio.observe(el));
+(()=>{const hero=document.querySelector('.hero'),cv=document.getElementById('wall'),cx=cv.getContext('2d'),tg=document.getElementById('drawToggle');const cols=['#5e8a26','#0b578b','#ffcf32','#132a3c','#e0663a'];let col=cols[0],down=false,last;
+const box=document.getElementById('crayons');cols.forEach((c,i)=>{const b=document.createElement('button');b.type='button';b.style.background=c;b.setAttribute('aria-label','Crayon colour');if(!i)b.classList.add('on');b.onclick=()=>{col=c;box.querySelectorAll('button').forEach(x=>x.classList.remove('on'));b.classList.add('on');hero.classList.add('drawing');tg.textContent='✓ Done drawing'};box.append(b)});
+const fit=()=>{const r=hero.getBoundingClientRect(),d=devicePixelRatio||1;cv.width=r.width*d;cv.height=r.height*d;cv.style.width=r.width+'px';cv.style.height=r.height+'px';cx.setTransform(d,0,0,d,0,0)};fit();addEventListener('resize',fit);
+const pos=e=>{const r=cv.getBoundingClientRect();return[e.clientX-r.left,e.clientY-r.top]};
+cv.addEventListener('pointerdown',e=>{down=true;last=pos(e);cv.setPointerCapture(e.pointerId)});
+cv.addEventListener('pointermove',e=>{if(!down)return;const p=pos(e);cx.strokeStyle=col;cx.lineWidth=6+Math.random()*2;cx.lineCap='round';cx.globalAlpha=.85;cx.beginPath();cx.moveTo(last[0],last[1]);cx.lineTo(p[0],p[1]);cx.stroke();last=p});
+addEventListener('pointerup',()=>down=false);
+tg.onclick=()=>{const on=hero.classList.toggle('drawing');tg.textContent=on?'✓ Done drawing':'✎ Draw on the wall'};})();
+(()=>{const sec=document.getElementById('day'),cards=document.getElementById('cards'),sun=document.getElementById('sun'),st=document.getElementById('sunTime'),hs=[...cards.children],track=sun.parentElement;
+const upd=()=>{const r=sec.getBoundingClientRect(),tot=sec.offsetHeight-innerHeight;let p=Math.min(Math.max(-r.top/tot,0),1);const max=cards.scrollWidth-innerWidth+64;cards.style.transform='translateX('+(-p*Math.max(max,0))+'px)';sun.style.left=(p*track.offsetWidth)+'px';const m=420+p*660;st.textContent=Math.floor(m/60)+':'+String(Math.floor(m%60/5)*5).padStart(2,'0');const k=Math.min(hs.length-1,Math.round(p*(hs.length-1)));hs.forEach((h,i)=>h.classList.toggle('on',i===k))};
+addEventListener('scroll',upd,{passive:true});addEventListener('resize',upd);upd();})();
+(()=>{const items=[...document.querySelectorAll('#roomList .room')],imgs=[...document.querySelectorAll('#roomImg img')];const set=k=>{items.forEach((x,i)=>x.classList.toggle('on',i===k));imgs.forEach((x,i)=>x.classList.toggle('on',i===k))};items.forEach((x,i)=>{x.addEventListener('mouseenter',()=>set(i));x.addEventListener('click',()=>set(i))});setInterval(()=>{if(document.querySelector('#roomList:hover'))return;set((items.findIndex(x=>x.classList.contains('on'))+1)%items.length)},5000)})();
+(()=>{const r=document.getElementById('rail');let d=false,x0,s0;r.addEventListener('pointerdown',e=>{if(e.pointerType!=='mouse')return;d=true;x0=e.clientX;s0=r.scrollLeft;r.classList.add('drag')});addEventListener('pointermove',e=>{if(d)r.scrollLeft=s0-(e.clientX-x0)});addEventListener('pointerup',()=>{d=false;r.classList.remove('drag')})})();
+document.querySelectorAll('.qa button').forEach(b=>b.addEventListener('click',()=>{const q=b.parentElement,was=q.classList.contains('open');document.querySelectorAll('.qa').forEach(x=>x.classList.remove('open'));if(!was)q.classList.add('open')}));
+document.querySelectorAll('.chips').forEach(g=>g.addEventListener('click',e=>{const c=e.target.closest('.chip');if(!c)return;g.querySelectorAll('.chip').forEach(x=>x.classList.remove('on'));c.classList.add('on');if(document.querySelectorAll('.chips .chip.on').length>=2)document.getElementById('visitBtn').classList.remove('wait')}));
+const clk=()=>{try{document.getElementById('clock').textContent=new Date().toLocaleTimeString('en-CA',{timeZone:'America/Toronto',hour:'numeric',minute:'2-digit'})}catch(e){}};clk();setInterval(clk,15000);
+</script>
+</body>
+</html>
